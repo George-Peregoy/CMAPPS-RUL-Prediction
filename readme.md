@@ -11,37 +11,34 @@ pip install -r requirements.txt
 
 ## project structure
 
-data
-    processed
-        data_set_1 
-            testing_data_1.csv
-            train_data_1.csv
-            validation_data_1.csv
-
-    raw
-        CMAPSSData 
-            readme.txt
-            RUL_FD001.txt
-            test_FD001.txt
-            train_FD001.txt
-
-models
-    model_class - model class code
-        model.py
-    
-    saved_models - fully trained model
-        feedforward_1.pkl
-
-utils - holds the code used to process raw data
-    data_processing_1.py
-
-requirements.txt
-
-test_1.py
-
-training_1.py
-
-readme.md
+project_root/
+│
+├── data/
+│   ├── raw/
+│   │   └── CMAPSSData/
+│   │       ├── readme.txt
+│   │       ├── RUL_FD001.txt
+│   │       ├── test_FD001.txt
+│   │       └── train_FD001.txt
+│   └── processed/
+│       └── data_set_1/
+│           ├── train_data_1.csv
+│           ├── validation_data_1.csv
+│           └── testing_data_1.csv
+│
+├── models/
+│   ├── model_class/
+│   │   └── model.py
+│   └── saved_models/
+│       └── feedforward_1.pkl
+│
+├── utils/
+│   └── data_processing_1.py
+│
+├── requirements.txt
+├── training_1.py
+├── test_1.py
+├── README.md
 
 ## How to use
 
