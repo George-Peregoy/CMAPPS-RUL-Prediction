@@ -11,6 +11,7 @@ pip install -r requirements.txt
 
 ## project structure
 
+```
 project_root/
 │
 ├── data/
@@ -39,6 +40,7 @@ project_root/
 ├── training_1.py
 ├── test_1.py
 ├── README.md
+```
 
 ## How to use
 
