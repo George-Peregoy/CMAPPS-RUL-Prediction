@@ -1,7 +1,7 @@
-# RUL estimation for turbofans from CMAPPS dataset
+# RUL estimation for turbofans from C-MAPPS dataset
 
 This project uses a feedforward neural network to estimate the 
-Remaining Useful Life (RUL) of turbofan engines using the NASA CMAPPS dataset. The neural network uses ReLU activation
+Remaining Useful Life (RUL) of turbofan engines using the NASA C-MAPPS dataset. The neural network uses ReLU activation
 MSE loss, Adam optimizer, and layer dropout.
 
 ## How to run 
@@ -60,7 +60,6 @@ Test loss: 24.6239
 
 The test loss is reported as RMSE (square root of MSE) to match the units of the original data.
 The average max cycle in the training data was 212.
-24.62 / 212 ≈ 0.1161 → ~11.6% margin of error.
 
 ## Author
 
